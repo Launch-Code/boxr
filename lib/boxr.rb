@@ -59,6 +59,7 @@ module Boxr
   BOX_CLIENT.cookie_manager = nil
 #   BOX_CLIENT.send_timeout = 3600 #one hour; needed for lengthy uploads
   BOX_CLIENT.send_timeout = 2 #making this much shorter because we are not running it in background
+  BOX_CLIENT.connect_timeout = 2
   BOX_CLIENT.agent_name = "Boxr/#{Boxr::VERSION}"
   BOX_CLIENT.transparent_gzip_decompression = true
   #BOX_CLIENT.ssl_config.add_trust_ca("/Users/cburnette/code/ssh-keys/dev_root_ca.pem")
