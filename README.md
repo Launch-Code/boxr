@@ -1,3 +1,6 @@
+# This Repo No Longer Used
+When we moved away from using box to collect ssns (9-2018), we stopped using boxr. It's probably safe to delete this repo in late 2019.
+
 # Boxr
 Boxr is a Ruby client library for the Box V2 Content API.  Box employees affectionately refer to one another as Boxers, hence the name of this gem.  
 
